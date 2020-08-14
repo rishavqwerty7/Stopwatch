@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script>
+
+    </script>
+    <style>
+        #display {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 80px;
+            color: red;
+        }
+
+        #display1 {
+            text-align: center;
+            margin-left: 320px;
+            height: 50px;
+
+        }
+
+        #display2 {
+            height: 50px;
+        }
+
+        body {
+            background-image: url("./pot.jpg");
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body style="padding-left: 20%; padding-right: 20%; margin-top: 50px;">
+    <div style="border: 1px solid black; background-color: rgb(252, 247, 213);">
+        <h1 style="text-align: center;">STOPWATCH</h1>
+        <div id="display">00:00:00</div>
+        <div style="margin-bottom: 50px;">
+            <button onclick="startstop()" id="display1">Start</button>
+            <button onclick="reset()" id="display2">reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
